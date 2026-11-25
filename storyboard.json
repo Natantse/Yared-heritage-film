@@ -1,0 +1,83 @@
+
+{
+  "project": {
+    "title": "Yared: The Voice of Ethiopian Heritage",
+    "subject": "Saint Yared and Ethiopian sacred musical heritage",
+    "audience": "International audiences",
+    "language": "Amharic",
+    "subtitle_language": "English",
+    "visual_style": "Traditional Ethiopian painting",
+    "target_duration_seconds": 64,
+    "formats": ["9:16", "16:9"]
+  },
+  "style": {
+    "description": "Traditional Ethiopian religious painting and illuminated manuscript inspiration, rich gold, deep blue, red and earth tones, decorative borders, respectful historical artistic interpretation.",
+    "consistency": "Keep the same artistic style, color palette and character design throughout all scenes."
+  },
+  "shots": [
+    {
+      "id": "shot_01",
+      "duration": 8,
+      "visual_prompt": "Ethiopian highlands at sunrise, traditional Ethiopian painted landscape, golden light, decorative manuscript border.",
+      "motion_prompt": "Slow gentle camera movement toward the sunrise.",
+      "narration_am": "በኢትዮጵያ ታሪክ ውስጥ ሙዚቃ ከዜማ በላይ ትርጉም አለው።",
+      "subtitle_en": "In Ethiopian history, music means more than melody."
+    },
+    {
+      "id": "shot_02",
+      "duration": 8,
+      "visual_prompt": "Ancient Ethiopian parchment manuscript with Ge'ez writing, gold decorations and warm candlelight.",
+      "motion_prompt": "Slow camera movement across the manuscript.",
+      "narration_am": "የእምነት፣ የባህልና የማንነት መገለጫ ነው።",
+      "subtitle_en": "It expresses faith, culture, and identity."
+    },
+    {
+      "id": "shot_03",
+      "duration": 8,
+      "visual_prompt": "Respectful traditional Ethiopian painted artistic interpretation of Saint Yared in historic church clothing, not a verified portrait.",
+      "motion_prompt": "Gentle movement toward the central figure.",
+      "narration_am": "በዚህ ታሪክ ውስጥ የቅዱስ ያሬድ ስም በክብር ይጠራል።",
+      "subtitle_en": "The name of Saint Yared is remembered with respect."
+    },
+    {
+      "id": "shot_04",
+      "duration": 8,
+      "visual_prompt": "Traditional Ethiopian church singers wearing white robes, painted in Ethiopian icon-inspired style.",
+      "motion_prompt": "Subtle movement among the singers.",
+      "narration_am": "በኢትዮጵያ ባህላዊ ትውፊት መሠረት፣ ያሬድ በቤተ ክርስቲያን የዜማ ታሪክ ውስጥ ታላቅ አስተዋጽኦ ያበረከተ ሰው ነው።",
+      "subtitle_en": "According to Ethiopian tradition, Yared made a great contribution to church music."
+    },
+    {
+      "id": "shot_05",
+      "duration": 8,
+      "visual_prompt": "Ethiopian sacred music manuscripts, Ge'ez writing and traditional musical symbols, painted parchment aesthetic.",
+      "motion_prompt": "Slow pan across the manuscript.",
+      "narration_am": "የእርሱ ስም ከቅዱስ ዜማና ከመንፈሳዊ ትምህርት ጋር ይያያዛል።",
+      "subtitle_en": "His name is connected with sacred song and spiritual teaching."
+    },
+    {
+      "id": "shot_06",
+      "duration": 8,
+      "visual_prompt": "Traditional Ethiopian church choir singing together, rich blue and gold painted composition.",
+      "motion_prompt": "Gentle movement as singers perform together.",
+      "narration_am": "ይህ ባህል ከትውልድ ወደ ትውልድ ይተላለፋል።",
+      "subtitle_en": "This tradition is passed from one generation to another."
+    },
+    {
+      "id": "shot_07",
+      "duration": 8,
+      "visual_prompt": "An experienced Ethiopian church music teacher teaching younger students, traditional painted artwork.",
+      "motion_prompt": "Slow movement toward the students learning.",
+      "narration_am": "ዛሬም ይህ የሙዚቃ ቅርስ በዜማዎች፣ በጸሎትና በትምህርት ይኖራል።",
+      "subtitle_en": "Even today, this musical heritage lives through song, prayer, and teaching."
+    },
+    {
+      "id": "shot_08",
+      "duration": 8,
+      "visual_prompt": "Beautiful Ethiopian church and landscape at sunset, traditional painting style, space for film title.",
+      "motion_prompt": "Slow pull back and gentle fade to the title.",
+      "narration_am": "ያሬድ የታሪክ ስም ብቻ አይደለም፤ የማንነታችን ድምፅ ነው።",
+      "subtitle_en": "Yared is not only a name from history; he is a voice of our heritage."
+    }
+  ]
+}
