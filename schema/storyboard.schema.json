@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Yared Heritage Film Storyboard",
+  "type": "object",
+  "required": ["project", "style", "shots"],
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": [
+        "title",
+        "subject",
+        "audience",
+        "language",
+        "subtitle_language",
+        "visual_style",
+        "target_duration_seconds",
+        "formats"
+      ],
+      "properties": {
+        "title": {"type": "string"},
+        "subject": {"type": "string"},
+        "audience": {"type": "string"},
+        "language": {"type": "string"},
+        "subtitle_language": {"type": "string"},
+        "visual_style": {"type": "string"},
+        "target_duration_seconds": {
+          "type": "integer",
+          "minimum": 60,
+          "maximum": 90
+        },
+        "formats": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["9:16", "16:9"]
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "style": {
+      "type": "object",
+      "required": ["description", "consistency"],
+      "properties": {
+        "description": {"type": "string"},
+        "consistency": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "duration",
+          "visual_prompt",
+          "motion_prompt",
+          "narration_am",
+          "subtitle_en"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^shot_[0-9]{2}$"
+          },
+          "duration": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "visual_prompt": {"type": "string"},
+          "motion_prompt": {"type": "string"},
+          "narration_am": {"type": "string"},
+          "subtitle_en": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
