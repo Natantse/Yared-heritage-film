@@ -1,27 +1,85 @@
-# Pipeline Architecture
+# ARCHITECTURE.md
 
-## Overview
-The project uses a Python pipeline controlled by a storyboard written in JSON.
+# AI Film Production Architecture
 
-## Pipeline Stages
+## 1. Overview
 
-1. **Storyboard:** `storyboard.json` contains the film scenes, narration, subtitles, and prompts.
-2. **Validation:** `pipeline.py` checks the storyboard using `schema/storyboard.schema.json`.
-3. **Keyframes:** Visual prompts are used to generate consistent scene images.
-4. **Motion:** Keyframes are developed into moving video shots.
-5. **Music:** An original score is created for the film.
-6. **Narration:** Amharic narration is generated and checked.
-7. **Assembly:** Video, narration, subtitles, and music are combined into final exports.
+The Saint Yared Heritage Short was created through a multi-stage AI-assisted production workflow.
 
-## Technical Design
-- Python manages the pipeline.
-- JSON stores the storyboard.
-- JSON Schema checks the storyboard structure.
-- FFmpeg is planned for video and audio assembly.
-- Generated assets will be stored in the `outputs/` directory.
+The workflow combines research, script development, visual generation, narration, music generation, subtitles, and final video editing.
 
-## Reproducibility
-The pipeline will use documented settings and run logs. Generated assets and model parameters will be recorded so another person can understand how the film was produced.
+## 2. Production Pipeline
 
-## Current Implementation Status
-The storyboard validation and shot-list printing are implemented. Media generation and final video assembly are planned but not yet implemented.
+The production process follows these stages:
+
+1. **Research and script:** Develop the story and narration about Saint Yared.
+2. **Storyboarding:** Plan the sequence and purpose of each scene.
+3. **Visual generation:** Create historical-style images and short video scenes using AI tools.
+4. **Narration:** Generate Amharic narration using Microsoft Edge Text-to-Speech.
+5. **Music generation:** Create an instrumental soundtrack using Meta MusicGen, guided by a begena-inspired prompt.
+6. **Subtitles:** Prepare English subtitles in SRT format.
+7. **Assembly:** Combine the scenes, narration, music, and subtitles using FFmpeg.
+8. **Export:** Produce vertical and horizontal film versions and the radio cut.
+
+## 3. Tools and Technologies
+
+| Tool | Purpose |
+|---|---|
+| Gemini | Script and text assistance |
+| FLUX.1 schnell | Historical-style portrait generation |
+| Wan 2.1 T2V 1.3B GGUF | AI video scene generation |
+| Microsoft Edge TTS | Amharic narration |
+| Meta MusicGen | Instrumental music generation |
+| FFmpeg | Audio and video processing |
+| Python | Automation and media processing |
+| Kaggle | GPU-based generation and editing |
+| GitHub | Source code, documentation, and deliverables |
+
+## 4. Media Organization
+
+The production materials are organized into separate folders:
+
+- `keyframes/` — generated reference images.
+- `motion/` — generated video scenes.
+- `music/` — soundtrack files.
+- `narration/` — narration files.
+- `subtitles/` — subtitle files.
+- `exports/` — final video outputs.
+
+## 5. Audio and Video Assembly
+
+The final film combines the generated scenes with the Amharic narration and instrumental soundtrack.
+
+The music is mixed beneath the narration so the spoken words remain clear.
+
+English subtitles are added to improve accessibility for international viewers.
+
+The project produces:
+- A vertical short film.
+- A horizontal short film.
+- A radio cut with English subtitles on a black background.
+
+## 6. Model and Workflow Limitations
+
+The smaller Wan 2.1 model was selected because of available GPU memory and storage constraints.
+
+AI-generated historical imagery is interpretive rather than documentary evidence.
+
+MusicGen produces an AI-generated instrumental inspired by the begena; it does not guarantee an authentic traditional instrument recording.
+
+Some production stages were completed manually in Kaggle rather than through a single automated command.
+
+## 7. Reproducibility
+
+The project uses Python scripts and documented production steps.
+
+Generated media, model versions, prompts, and processing settings should be recorded where available so that the workflow can be reviewed and repeated.
+
+## 8. Future Architecture Improvements
+
+Future versions could include:
+- A fully automated end-to-end pipeline.
+- Automatic subtitle alignment using speech recognition.
+- More systematic logging of model parameters and execution time.
+- Automated output validation.
+- Improved caching and recovery after failed generation stages.
