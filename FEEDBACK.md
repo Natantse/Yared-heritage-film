@@ -1,23 +1,37 @@
 # Audience Feedback – Saint Yared Heritage Film
 
-## Viewer 1
+## Project Overview
 
-**1. What did you learn about Saint Yared?**
+This document records feedback from a human viewer who watched the Saint Yared Heritage Film.
 
-I learned how Saint Yared played a major role in shaping Ethiopian culture through music. He introduced a unique system of musical notation and developed traditional church chants, leaving a lasting impact on Ethiopian Orthodox worship and cultural heritage.
+## Viewer 1 – Audience Feedback
 
-**2. Was the story clear and engaging?**
+**Question 1: What did you learn from the video?**
 
-Yes. The documentary was very clear and engaging.
+"From this video, I learned how Saint Yared played a major role in shaping Ethiopian culture through music. He introduced a unique system of musical notation and developed traditional church chants, leaving a lasting impact on Ethiopian Orthodox worship and cultural heritage."
 
-**3. What would you improve?**
+**Question 2: Was the video clear and engaging?**
 
-It would be great if the characters had some movement.
+"Yes, it was very clear and also very engaging."
 
-## Feedback Summary
+**Question 3: What could be improved?**
 
-The viewer found the documentary clear and engaging and gained an understanding of Saint Yared's contribution to Ethiopian musical and cultural heritage.
+"If the characters have some movements, it would be great."
 
-The main improvement suggested was adding more movement to the characters to make the visuals more dynamic.
+## Feedback Analysis
 
-**Audience testing status:** Feedback collected from one viewer. The planned evaluation with three viewers is not yet complete.
+### Strengths
+- The viewer understood Saint Yared's contribution to Ethiopian culture.
+- The video was described as clear and engaging.
+- The film communicated the importance of Ethiopian sacred music and cultural heritage.
+
+### Suggested Improvement
+- Add more character movement and animation to make scenes feel more dynamic and engaging.
+
+## Conclusion
+
+The feedback shows that the film communicated its main message clearly and engaged the viewer. Future improvements could include more character movement and animation.
+
+## Feedback Collection Status
+
+One human viewer response was collected. The planned testing with three human viewers has not yet been completed.
