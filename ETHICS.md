@@ -1,24 +1,79 @@
-# Ethics and Responsible AI Use
+# ETHICS.md
 
-## 1. Cultural Respect
-The film presents Saint Yared and Ethiopian sacred musical heritage respectfully. Religious symbols, church traditions, and cultural practices should not be treated as decoration or entertainment without context.
+# Ethics, Cultural Respect, and AI Transparency
+
+## 1. Purpose
+
+This project presents the heritage of Saint Yared and Ethiopian sacred music through AI-assisted filmmaking.
+
+The project aims to celebrate Ethiopian cultural and religious heritage while being transparent about the use and limitations of AI-generated content.
 
 ## 2. Historical Accuracy
-AI-generated images are artistic interpretations, not verified historical evidence or authentic portraits of Saint Yared.
 
-Historical claims should be checked against reliable sources. Traditional accounts will be described as traditions where appropriate.
+Saint Yared is a historical and religious figure whose legacy is important in Ethiopian Orthodox tradition.
 
-## 3. AI Transparency
-AI tools may be used to generate images, video, narration, and music. The project will clearly disclose AI-generated content in the film and its social media post.
+The film uses an artistic visual interpretation of Saint Yared. The generated portrait is not presented as a verified historical likeness or an authentic photograph.
 
-## 4. Consent and Likeness
-The project will not use a real person's face, voice, or likeness without their informed permission.
+Historical and religious claims should be understood in the context of Ethiopian church tradition.
 
-## 5. Music and Copyright
-The original score should be created for this project. Any external material must be used with appropriate permission or licensing.
+## 3. Cultural and Religious Respect
 
-## 6. Language and Representation
-Amharic narration and English subtitles will help make the film accessible to local and international audiences. Amharic pronunciation and translation should be reviewed for accuracy.
+The project seeks to represent Ethiopian Orthodox heritage respectfully.
 
-## 7. Human Review
-AI-generated content will be reviewed before publication for cultural respect, accuracy, and quality.
+Care was taken to:
+- Use appropriate historical and religious visual themes.
+- Avoid presenting fictional imagery as historical evidence.
+- Treat sacred music and religious traditions respectfully.
+- Preserve the Amharic language in the narration.
+- Make the story accessible through English subtitles.
+
+## 4. AI Transparency
+
+AI-assisted tools were used for parts of the production, including:
+- Visual generation.
+- Video scene generation.
+- Narration.
+- Instrumental music generation.
+- Script and text assistance.
+
+The final film should be labelled as AI-assisted.
+
+The begena-inspired soundtrack is AI-generated and is not claimed to be an authentic traditional performance.
+
+## 5. Consent and Representation
+
+The film does not intentionally depict a real living person as Saint Yared.
+
+The generated historical character is an artistic interpretation.
+
+Any future use of identifiable real people, performers, or archival material should require appropriate permission and consent.
+
+## 6. Copyright and Licensing
+
+The project uses AI-generated media and open-source software.
+
+The applicable model, software, and service licences should be checked before redistributing generated outputs or model files.
+
+No claim is made that every generated asset is automatically free of copyright or licensing restrictions.
+
+## 7. Accessibility
+
+English subtitles are included to make the Amharic narration more accessible to international audiences.
+
+Subtitle readability and audio clarity are important parts of the final review.
+
+## 8. Limitations
+
+AI-generated content can contain visual inaccuracies, cultural inaccuracies, and misleading historical details.
+
+The film is a creative heritage interpretation, not a substitute for historical research or scholarly documentation.
+
+## 9. Responsible Future Use
+
+Future versions should:
+- Include stronger historical references.
+- Consult knowledgeable Ethiopian cultural and religious reviewers.
+- Obtain permission for any third-party recordings or archival material.
+- Clearly label AI-generated content.
+- Review all assets and licences before publication.
+
