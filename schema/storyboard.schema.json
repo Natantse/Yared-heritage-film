@@ -24,7 +24,7 @@
         "subtitle_language": {"type": "string"},
         "visual_style": {"type": "string"},
         "target_duration_seconds": {
-          "type": "integer",
+          "type": "number",
           "minimum": 60,
           "maximum": 90
         },
@@ -36,7 +36,8 @@
           },
           "minItems": 2,
           "uniqueItems": true
-        }
+        },
+        "historical_note": {"type": "string"}
       },
       "additionalProperties": false
     },
@@ -59,9 +60,7 @@
           "id",
           "duration",
           "visual_prompt",
-          "motion_prompt",
-          "narration_am",
-          "subtitle_en"
+          "motion_prompt"
         ],
         "properties": {
           "id": {
@@ -79,6 +78,24 @@
         },
         "additionalProperties": false
       }
+    },
+    "production": {
+      "type": "object",
+      "properties": {
+        "narration": {"type": "string"},
+        "subtitles": {"type": "string"},
+        "music": {"type": "string"},
+        "editing": {"type": "string"},
+        "exports": {
+          "type": "object",
+          "properties": {
+            "vertical": {"type": "string"},
+            "horizontal": {"type": "string"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false
