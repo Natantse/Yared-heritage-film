@@ -54,4 +54,24 @@
     {
       "id": "shot_07",
       "duration": 8,
-      "visual_prompt": "Ancient Ethiopian religious manuscript with Ge'ez writing and
+      "visual_prompt": "Ancient Ethiopian religious manuscript with Ge'ez writing and traditional parchment details.",
+      "motion_prompt": "Slow cinematic close-up across the manuscript."
+    },
+    {
+      "id": "shot_08",
+      "duration": 8.14,
+      "visual_prompt": "Ethiopian highlands at golden hour, peaceful and majestic closing image.",
+      "motion_prompt": "Slow cinematic pullback and gentle fade."
+    }
+  ],
+  "production": {
+    "narration": "Amharic narration generated with Microsoft Edge TTS.",
+    "subtitles": "English subtitles.",
+    "music": "AI-generated begena-inspired instrumental music.",
+    "editing": "FFmpeg video assembly.",
+    "exports": {
+      "vertical": "9:16",
+      "horizontal": "16:9"
+    }
+  }
+}
